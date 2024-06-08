@@ -38,8 +38,8 @@ const Contact = () => {
 	return (
 		<>
 			<Head>
-				<title>Ritesh Pradhan | Contact Page</title>
-				<meta name="description" content="Ritesh Pradhan Contact Page" />
+				<title>Shakti Swaroop Sahu | Contact Page</title>
+				<meta name="description" content="Shakti Swaroop Sahu Contact Page" />
 			</Head>
 			<TransitionEffect/>
 			<main className="w-full mb-16 flex flex-col items-center justify-center">
@@ -72,7 +72,7 @@ const Contact = () => {
                             dark:bg-primaryDark/90 dark:text-dark dark:border-light dark:border-2 dark:border-solid shadow-md dark:shadow-light
                             "
                         >
-							<span className="font-semibold">Dear Ritesh Pradhan,</span>
+							<span className="font-semibold">Dear Shakti Swaroop Sahu,</span>
 							<textarea
 								name="message"
 								rows={6}

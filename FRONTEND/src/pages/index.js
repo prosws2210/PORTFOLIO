@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import Layout from "@/components/Layout";
-import profilePic from "../../public/images/profile/profile-pic-4.jpg";
+import profilePic from "../../public/images/profile/profile-pic-6.png";
 import AnimatedText from "@/components/AnimatedText";
 import { LinkArrow } from "@/components/Icons";
 import HireMe from "@/components/HireMe";
@@ -17,8 +17,8 @@ export default function Home() {
 	return (
 		<>
 			<Head>
-				<title>Ritesh Pradhan | Portfolio Website</title>
-				<meta name="description" content="Ritesh Pradhan Portfolio website" />
+				<title>Shakti Swaroop Sahu | Portfolio Website</title>
+				<meta name="description" content="Shakti Swaroop Sahu Portfolio website" />
 			</Head>
 			<TransitionEffect/>
 			<main className="flex items-center text-dark w-full min-h-screen dark:text-light">
@@ -52,7 +52,7 @@ export default function Home() {
 									Resume
                   <LinkArrow className="w-6 h-6 ml-1" />
 								</Link>
-								<Link href="mailto:riteshpradhan2003@gmail.com" target="_blank"
+								<Link href="mailto:sahu.shaktiswaroop22@gmail.com" target="_blank"
                 className="ml-4  text-lg font-medium capitalize text-dark underline dark:text-light
 				md:text-base
 				"
@@ -65,7 +65,7 @@ export default function Home() {
 				</Layout>
         <HireMe />
         <div  className="absolute right-8 bottom-8 inline-block w-24 lg:hidden">
-          <Image src={lightBulb} alt="Ritesh Pradhan" className="w-full h-auto" />
+          <Image src={lightBulb} alt="Shakti Swaroop Sahu" className="w-full h-auto" />
         </div>
 			</main>
 		</>

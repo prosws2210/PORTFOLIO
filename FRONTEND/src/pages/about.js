@@ -3,7 +3,7 @@ import Layout from "@/components/Layout";
 import React, { useRef } from "react";
 import Head from "next/head";
 import Image from "next/image";
-import profilePic from "../../public/images/profile/profile.png";
+import profilePic from "../../public/images/profile/IMG_5858 (2).JPG";
 import { FaRocket, FaLightbulb, FaGraduationCap } from "react-icons/fa";
 import { motion } from "framer-motion";
 import Skills from "@/components/Skills";
@@ -26,8 +26,8 @@ const About = () => {
 	return (
 		<>
 			<Head>
-				<title>Ritesh Pradhan | About Page</title>
-				<meta name="description" content="About Ritesh Pradhan" />
+				<title>Shakti Swaroop Sahu | About Page</title>
+				<meta name="description" content="About Shakti Swaroop Sahu" />
 			</Head>
 			<TransitionEffect/>
 			<main className="flex w-full flex-col items-center justify-center dark:text-light">
@@ -51,7 +51,7 @@ const About = () => {
 								Biography
 							</h2>
 							<p className="font-medium text-sm text-justify">
-								I&apos;m Ritesh Pradhan, a web developer and ML enthusiast with a
+								I&apos;m Shakti Swaroop Sahu, a web developer and ML enthusiast with a
 								year of experience creating websites. I focus on
 								user-centered design, solving real-world problems, and enhancing
 								user experiences through meticulous attention to detail.
@@ -79,7 +79,7 @@ const About = () => {
 							<div className="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light " />
 							<Image
 								src={profilePic}
-								alt="Ritesh Pradhan"
+								alt="Shakti Swaroop Sahu"
 								className="w-full h-auto rounded-2xl"
 								priority
 								sizes="{max-width: 640px} 100vw, (max-width: 1200px) 50vw, 33vw"

@@ -20,7 +20,7 @@ const Footer = () => {
 					Built with <span className="text-red-500 text-2xl px-1">&#9825;</span>{" "}
 					by &nbsp;{" "}
 					<Link href="/about" className="underline underline-offset-2">
-						Ritesh Pradhan
+						Shakti Swaroop Sahu
 					</Link>
 				</div>
 				<Link
