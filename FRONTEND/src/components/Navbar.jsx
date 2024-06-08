@@ -80,7 +80,7 @@ const Navbar = () => {
 			</nav>
 			<nav className="flex items-center justify-center flex-wrap">
 				<motion.a
-					href="http://www.linkedin.com/in/ritesh-pradhan-220301256"
+					href="https://www.linkedin.com/in/shakti-swaroop-sahu-a92574216/"
 					target="_blank"
 					whileHover={{ y: -2 }}
 					whileTap={{ scale: 0.9 }}
@@ -89,7 +89,7 @@ const Navbar = () => {
 					<LinkedInIcon />
 				</motion.a>
 				<motion.a
-					href="https://github.com/RITESHP36"
+					href="https://github.com/prosws2210"
 					target="_blank"
 					whileHover={{ y: -2 }}
 					whileTap={{ scale: 0.9 }}
@@ -98,7 +98,7 @@ const Navbar = () => {
 					<GithubIcon />
 				</motion.a>
 				<motion.a
-					href="mailto:riteshpradhan2003@gmail.com"
+					href="mailto:sahu.shaktiswaroop22@gmail.com"
 					target="_blank"
 					whileHover={{ y: -2 }}
 					whileTap={{ scale: 0.9 }}
@@ -135,7 +135,7 @@ const Navbar = () => {
 				</nav>
 				<nav className="flex items-center justify-center flex-wrap mt-2">
 					<motion.a
-						href="http://www.linkedin.com/in/ritesh-pradhan-220301256"
+						href="https://www.linkedin.com/in/shakti-swaroop-sahu-a92574216/"
 						target="_blank"
 						whileHover={{ y: -2 }}
 						whileTap={{ scale: 0.9 }}
@@ -144,7 +144,7 @@ const Navbar = () => {
 						<LinkedInIcon />
 					</motion.a>
 					<motion.a
-						href="https://github.com/RITESHP36"
+						href="https://github.com/prosws2210"
 						target="_blank"
 						whileHover={{ y: -2 }}
 						whileTap={{ scale: 0.9 }}
@@ -153,7 +153,7 @@ const Navbar = () => {
 						<GithubIcon />
 					</motion.a>
 					<motion.a
-						href="mailto:riteshpradhan2003@gmail.com"
+						href="mailto:sahu.shaktiswaroop22@gmail.com"
 						target="_blank"
 						whileHover={{ y: -2 }}
 						whileTap={{ scale: 0.9 }}

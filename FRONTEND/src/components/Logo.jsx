@@ -20,9 +20,9 @@ const Logo = () => {
 						],
 						transition: { duration: 1, repeat: Infinity },
 					}}
-				className="w-16 h-16 bg-dark text-light flex items-center justify-center rounded-full text-2xl font-bold border border-solid border-transparent dark:border-light cursor-pointer"
+				className="w-20 h-16 bg-dark text-light flex items-center justify-center rounded-full text-2xl font-extrabold border-2 border-solid border-transparent dark:border-light cursor-pointer"
 				>
-					RP
+					SWS
 				</MotionDiv>
 			</Link>
 		</div>
