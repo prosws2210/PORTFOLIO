@@ -114,10 +114,10 @@ const Projects = () => {
 	return (
 		<>
 			<Head>
-				<title>Ritesh Pradhan | Projects Page</title>
+				<title>Shakti Swaroop Sahu | Projects Page</title>
 				<meta
 					name="description"
-					content="Projects description by Ritesh Pradhan"
+					content="Projects description by Shakti Swaroop Sahu"
 				/>
 			</Head>
 			<TransitionEffect/>
