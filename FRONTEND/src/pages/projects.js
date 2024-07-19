@@ -9,11 +9,10 @@ import { LinkArrow } from "@/components/Icons";
 import TransitionEffect from "@/components/TransitionEffect";
 
 import TokenImg from "../../public/images/projects/Token.png";
-import UrbanDwellImg from "../../public/images/projects/UrbanDwell.png"
-import EatOutImg from "../../public/images/projects/Eatout.png"
+import FFCSImg from "../../public/images/projects/FFCS.jpg"
+import DoctorImg from "../../public/images/projects/Doctor.jpg"
 import BloggingBlitzImg from "../../public/images/projects/BloggingBlitz.png"
 import VoteImg from "../../public/images/projects/Vote.png"
-import TechnoVITImg from "../../public/images/projects/TechnoVIT.png"
 
 const FeaturedProject = ({ type, title, summary, img, link, github }) => {
 	return (
@@ -130,38 +129,48 @@ const Projects = () => {
 					">
 						<div className="col-span-12">
 							<FeaturedProject
-								title="Digital Token Generation And Validation"
+								title="FFCS Helper"
+								summary="FFCS Helper revolutionizes timetable management for VIT Chennai students by providing an intuitive platform to effortlessly generate personalized schedules based on individual preferences and available slots without clashes. It simplifies the scheduling process by eliminating manual work, ensuring students can focus more on their studies and less on logistical challenges. With features like code sharing and downloading timetables, it promotes seamless collaboration among peers, making academic planning more efficient and accessible."
+								img={FFCSImg}
+								link="https://ffcs-helper.vercel.app/"
+								github="https://github.com/prosws2210/FFCS-TimeTable-Generator"
+							/>
+						</div>
+						<div className="col-span-6 sm:col-span-12">
+							<Project
+								title="Token Generation & Validation"
+								type="Digital Token Generation and Managing Website"
 								summary="Developed interactive and responsive user interfaces using ReactJS and Tailwind CSS. Utilized Supabase for backend development, managing user databases with UUIDs for user identification. Integrated Google Sheets for mail merge functionality, implemented QR-based authentication to reduce user waiting time by 50%, and resolved redundancy issues with physical tokens."
 								img={TokenImg}
-								link="https://kj-ticket.vercel.app/"
-								github="https://github.com/RITESHP36/E-Ticket.io/"
+								link="https://kj-ticket.vercel.app"
+								github="https://github.com/prosws2210/E-Ticket.io/"
 							/>
 						</div>
 						<div className="col-span-6 sm:col-span-12">
 							<Project
-								title="Urban Dwell"
-								type="Real Estate Website"
-								img={UrbanDwellImg}
-								link="https://urban-dwell.vercel.app/"
-								github="https://github.com/RITESHP36/urban-dwell"
-							/>
-						</div>
-						<div className="col-span-6 sm:col-span-12">
-							<Project
-								title="Eat Out"
-								type="Food Ordering Website"
-								img={EatOutImg}
+								title="College Finance"
+								type="Finance managing Website"
+								img={TokenImg}
 								link="https://riteshp36.github.io/Eat_Out/"
-								github="https://github.com/RITESHP36/Eat_Out"
+								github="https://github.com/prosws2210/FINANCE"
 							/>
 						</div>
 						<div className="col-span-12">
 							<FeaturedProject
-								title="Blogging Blitz"
+								title="Dr. Symptoms"
 								summary="Designed an engaging and responsive user interface using ReactJS for the frontend, styled with Tailwind CSS. The website was seamlessly hosted on Vercel. For the backend, I implemented Node.js and Express, utilizing MongoDB to store user details and blogs. Additionally, I employed Firebase for image uploads and JWT for user authentication, resulting in a significant boost in online traffic during Kalinga Jyoti’s inaugural online event."
+								img={DoctorImg}
+								link="https://health-care-website-two.vercel.app/"
+								github="https://github.com/prosws2210/HEALTHCARE"
+							/>
+						</div>
+						<div className="col-span-6 sm:col-span-12">
+							<Project
+								title="Blogging Blitz"
+								type="Website for writing blogs"
 								img={BloggingBlitzImg}
 								link="https://kj-bloggingblitz.vercel.app/"
-								github="https://github.com/RITESHP36/KJBlog"
+								github="https://github.com/prosws2210/KJBlog"
 							/>
 						</div>
 						<div className="col-span-6 sm:col-span-12">
@@ -170,18 +179,10 @@ const Projects = () => {
 								type="Website with realtime database"
 								img={VoteImg}
 								link="https://kj-poll.vercel.app/"
-								github="https://github.com/RITESHP36/KJ_Polls"
+								github="https://github.com/prosws2210/KJ_Polls"
 							/>
 						</div>
-						<div className="col-span-6 sm:col-span-12">
-							<Project
-								title="TechnoVIT Website"
-								type="College Tech-Fest Website"
-								img={TechnoVITImg}
-								link="https://technovit23.vercel.app/"
-								github="https://github.com/RITESHP36/technovit23"
-							/>
-						</div>
+
 					</div>
 				</Layout>
 			</main>
