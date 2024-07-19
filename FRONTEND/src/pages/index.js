@@ -28,7 +28,7 @@ export default function Home() {
 							<Image
 								src={profilePic}
 								alt="Profile Picture"
-								className="w-3/4 mx-auto h-auto lg:hidden md:inline-block md:w-full"
+								className="w-full mx-auto h-auto lg:hidden md:inline-block md:w-full"
 								priority
 								sizes="{max-width: 640px} 100vw, (max-width: 1200px) 50vw, 33vw"
 							/>
@@ -39,7 +39,7 @@ export default function Home() {
 								className="!text-5xl !text-left xl:!text-4xl lg:!text-center lg:!text-5xl sm:!text-3xl"
 							/>
 							<p className="my-4 text-base font-medium md:text-sm sm:text-xs">
-							A full-stack developer creating beautiful, functional websites using machine learning for enhancing user experiences.
+								I am a full-stack developer with a passion for creating visually stunning and highly functional websites. Additionally, I specialize in machine learning, leveraging advanced algorithms to enhance user experiences and provide innovative, data-driven solutions.		
 							</p>
 							<div className="flex items-center self-start mt-2 lg:self-center">
 								<Link

@@ -3,7 +3,7 @@ import Layout from "@/components/Layout";
 import React, { useRef } from "react";
 import Head from "next/head";
 import Image from "next/image";
-import profilePic from "../../public/images/profile/IMG_5858 (2).JPG";
+import profilePic from "../../public/images/profile/IMG_5858_new.png";
 import { FaRocket, FaLightbulb, FaGraduationCap } from "react-icons/fa";
 import { motion } from "framer-motion";
 import Skills from "@/components/Skills";
@@ -51,24 +51,18 @@ const About = () => {
 								Biography
 							</h2>
 							<p className="font-medium text-sm text-justify">
-								I&apos;m Shakti Swaroop Sahu, a web developer and ML enthusiast with a
-								year of experience creating websites. I focus on
-								user-centered design, solving real-world problems, and enhancing
-								user experiences through meticulous attention to detail.
+								I'm Shakti Swaroop Sahu, a dedicated web developer and machine learning enthusiast with over a year of experience in creating dynamic and responsive websites. My work is driven by a focus on user-centered design, solving real-world problems, and enhancing user experiences through meticulous attention to detail.
 							</p>
 							<p className="font-medium my-4 text-sm">
-								I pursued a B.Tech in Computer Science and Engineering with a
-								specialization in AI and ML at Vellore Institute of Technology,
-								Chennai. I stay updated with industry trends, continuously
-								improving my skills as a web developer and competitive
-								programmer.
+								I am currently pursuing a B.Tech in Computer Science and Engineering with a specialization in AI and ML at Vellore Institute of Technology, Chennai. I consistently stay abreast of industry trends, continuously honing my skills as a web developer and competitive programmer.
 							</p>
 							<p className="font-medium text-sm">
-								From Odisha, I draw inspiration from my roots to create unique
-								designs. I commit to excellence and user-centered thinking in
-								all projects, whether it&apos;s an e-commerce platform, social app,
-								or portfolio website.
+								My journey in technology is fueled by a passion for continuous learning and innovation. I actively participate in hackathons and coding competitions to challenge myself and stay at the forefront of technological advancements. Collaborating with like-minded individuals has allowed me to develop solutions that address complex problems effectively.
 							</p>
+							{/* <p className="font-medium text-sm">
+								By integrating advanced machine learning techniques into my web development process, I aim to create innovative, data-driven solutions that deliver exceptional user experiences. I am passionate about leveraging technology to make a meaningful impact and am always eager to take on new challenges and opportunities for growth.
+							</p> */}
+
 						</div>
 						{/* image */}
 						<div

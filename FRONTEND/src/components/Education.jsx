@@ -74,21 +74,21 @@ const Education = () => {
 						time="2022 - Present"
 						institution="Vellore Institute of Technology, Chennai Campus"
 						logo={VIT_Logo}
-						performance="CGPA: 9.72/10"
+						performance="CGPA: 9.25/10"
 					/>
 					<Details
 						type="Senior Secondary (Class XII)"
-						time="2019 - 2021"
-						institution="Kendriya Vidyalaya, No.1, Vasco, Goa"
+						time="2020 - 2022"
+						institution="Kendriya Vidyalaya No.1, JIPMER Campus, Puducherry"
 						logo={KVS_Logo}
-						performance="Percentage: 96.2%"
+						performance="Percentage in 12th std: 94%"
 					/>
 					<Details
 						type="Secondary (Class X)"
-						time="2017-2019"
-						institution="Kendriya Vidyalaya, No.2, Kochi, Kerala"
+						time="2010 - 2020"
+						institution="Kendriya Vidyalaya No.1, JIPMER Campus, Puducherry"
 						logo={KVS_Logo}
-						performance="Percentage: 97.2%"
+						performance="Percentage in 10th std: 96.2%"
 					/>
 				</ul>
 			</div>

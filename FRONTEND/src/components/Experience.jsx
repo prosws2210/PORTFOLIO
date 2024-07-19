@@ -49,29 +49,22 @@ const Experience = () => {
 				<motion.div 
                 style={{scaleY:scrollYProgress}}
                 className="absolute left-8 top-0 w-[4px] h-full bg-dark dark:bg-light origin-top md:w-[2px] md:left-[30px] xs:left-[20px]" />
-                    <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
-                        <Details
-                            position="Web Developer"
-                            company="IEEE RAS Club"
-                            time="2023 - Present"
-                            address="VIT Chennai"
-                            work="Developed a website for the club to showcase its activities and events. The website is built using NextJS, Tailwind CSS and Framer Motion."
-                        />
-                        <Details
-                            position="Web Developer"
-                            company="Google Developer Student Club"
-                            time="2023 - Present"
-                            address="VIT Chennai"
-                            work="Created user-friendly and interactive websites for conducting events and workshops."
-                        />
-                        <Details
-                            position="Team Lead (Technical Department)"
-                            company='Kalinga Jyoti'
-                            time="2022 - Present"
-                            address="VIT Chennai"
-                            work="Led a team of developers and created multiple websites such as Ticket Validation and Management System, Blogging Platform, Live Voting System, and more."
-                        />
-                    </ul>
+                <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
+                    <Details
+                        position="Web Developer"
+                        company="IEEE RAS Club"
+                        time="2023 - Present"
+                        address="VIT Chennai"
+                        work="Developed a website for the club to showcase its activities and events. The website is built using NextJS, Tailwind CSS and Framer Motion."
+                    />
+                    <Details
+                        position="Team Lead (Cultural Department)"
+                        company="Kalinga Jyoti"
+                        time="2022 - Present"
+                        address="VIT Chennai"
+                        work="As the Team Lead of the Cultural Department, I spearheaded various cultural initiatives and events. I led a diverse team in organizing and managing events, fostering a vibrant and inclusive community. My role also involved collaborating with different teams to create digital platforms such as a Ticket Validation and Management System, Blogging Platform, Live Voting System, and more, enhancing the overall cultural experience at VIT Chennai."
+                    />
+                </ul>
 		    </div>
         </div>
 	);
