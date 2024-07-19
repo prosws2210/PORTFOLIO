@@ -51,7 +51,7 @@ const About = () => {
 								Biography
 							</h2>
 							<p className="font-medium text-sm text-justify">
-								I'm Shakti Swaroop Sahu, a dedicated web developer and machine learning enthusiast with over a year of experience in creating dynamic and responsive websites. My work is driven by a focus on user-centered design, solving real-world problems, and enhancing user experiences through meticulous attention to detail.
+								I&apos;m Shakti Swaroop Sahu, a dedicated web developer and machine learning enthusiast with over a year of experience in creating dynamic and responsive websites. My work is driven by a focus on user-centered design, solving real-world problems, and enhancing user experiences through meticulous attention to detail.
 							</p>
 							<p className="font-medium my-4 text-sm">
 								I am currently pursuing a B.Tech in Computer Science and Engineering with a specialization in AI and ML at Vellore Institute of Technology, Chennai. I consistently stay abreast of industry trends, continuously honing my skills as a web developer and competitive programmer.
