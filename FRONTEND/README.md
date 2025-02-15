@@ -1,1 +1,1 @@
-NextJS Portfolio Website - RITESH PRADHAN
+NextJS Portfolio Website - SHAKTI SWAROOP SAHU
